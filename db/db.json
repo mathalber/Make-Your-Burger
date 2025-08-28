@@ -69,52 +69,17 @@
   },
   "status": [
     {
-      "id": 1,
+      "id": "1",
       "tipo": "Solicitado"
     },
     {
-      "id": 2,
+      "id": "2",
       "tipo": "Em produção"
     },
     {
-      "id": 3,
+      "id": "3",
       "tipo": "Finalizado"
     }
   ],
-  "burgers": [
-    {
-      "id": "d439",
-      "nome": "Matheus Silva",
-      "carne": "Maminha",
-      "pao": "Parmesão e Orégano",
-      "opcionais": [
-        "Bacon",
-        "Cheddar"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "ae97",
-      "nome": "Caio",
-      "carne": "Alcatra",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Cheddar",
-        "Tomate",
-        "Pepino",
-        "Cebola roxa"
-      ],
-      "status": "Solicitado"
-    },
-    {
-      "id": "97db",
-      "nome": "Beto",
-      "carne": "Maminha",
-      "pao": "Integral",
-      "opcionais": [
-        "Pepino"
-      ],
-      "status": "Solicitado"
-    }
-  ]
+  "burgers": []
 }

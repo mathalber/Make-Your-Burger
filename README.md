@@ -1,23 +1,89 @@
-# 3_make_your_burger
+# Make Your Burger
 
-## Project setup
-```
+Projeto Vue.js para montar e gerenciar pedidos de hambúrguer personalizados.
+
+## Funcionalidades
+
+- Cadastro de pedidos de hambúrguer
+- Escolha de pão, carne e opcionais
+- Visualização de pedidos
+- Mensagens de confirmação
+
+## Tecnologias Utilizadas
+
+- Vue.js
+- JavaScript
+- HTML/CSS
+- json-server (backend fake)
+
+## Como rodar o projeto
+
+### 1. Instale as dependências
+
+```powershell
 npm install
 ```
 
-### Compiles and hot-reloads for development
+Ou, se preferir:
+
+```powershell
+pnpm install
 ```
+
+### 2. Inicie o backend (API fake)
+
+```powershell
+npx json-server --watch db/db.json --port 3000
+```
+
+### 3. Inicie o frontend
+
+```powershell
 npm run serve
 ```
-### Compiles and hot-reloads for development
-```
-npm run backend
+
+Ou:
+
+```powershell
+pnpm serve
 ```
 
-### Compiles and minifies for production
+Acesse o frontend em: [http://localhost:8080](http://localhost:8080)
+
+## Estrutura de Pastas
+
 ```
-npm run build
+├── db/
+│   └── db.json           # Banco de dados fake
+├── public/
+│   └── img/              # Pasta para imagens públicas
+├── src/
+│   ├── assets/           # Imagens e arquivos estáticos
+│   ├── components/       # Componentes Vue
+│   ├── router/           # Rotas do projeto
+│   └── views/            # Páginas principais
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Imagens das Telas
+
+### Home
+
+![Home](src/assets/img/home.png)
+
+### Formulário de Pedido
+
+![Formulário](src/assets/img/formhome.png)
+
+### Pedidos
+
+![Pedidos](src/assets/img/pedidos.png)
+
+## Local para fotos do projeto
+
+## Autor
+
+- Matheus Alberto Rodrigues da Silva
+
+---
+
+Sinta-se livre para contribuir ou sugerir melhorias!
