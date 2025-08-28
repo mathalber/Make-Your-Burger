@@ -68,15 +68,15 @@ Acesse o frontend em: [http://localhost:8080](http://localhost:8080)
 
 ### Home
 
-![Home](src/assets/img/home.png)
+![Home](src/assets/img/Home.png)
 
 ### Formulário de Pedido
 
-![Formulário](src/assets/img/formhome.png)
+![Formulário](src/assets/img/FormHome.png)
 
 ### Pedidos
 
-![Pedidos](src/assets/img/pedidos.png)
+![Pedidos](src/assets/img/Pedidos.png)
 
 ## Local para fotos do projeto
 
